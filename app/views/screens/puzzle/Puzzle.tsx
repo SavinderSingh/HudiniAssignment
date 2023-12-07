@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     // textAlign: 'center',
     paddingVertical: 12,
+    color: '#000',
   },
   row: {
     flexDirection: 'row',

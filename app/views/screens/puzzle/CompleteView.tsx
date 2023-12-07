@@ -51,14 +51,17 @@ const styles = StyleSheet.create({
   thankyou: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#000',
   },
   description: {
     fontSize: 16,
     paddingTop: 12,
+    color: '#000',
   },
   points: {
     fontSize: 16,
     fontWeight: '700',
+    color: '#000',
   },
   successImage: {
     height: SCREEN_WIDTH / 2,

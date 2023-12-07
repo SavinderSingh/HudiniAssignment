@@ -195,7 +195,6 @@ const styles = StyleSheet.create({
     flex: 1,
     // alignItems: 'center',
     paddingVertical: 40,
-    
   },
   row: {
     flexDirection: 'row',

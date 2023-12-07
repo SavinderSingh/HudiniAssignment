@@ -12,7 +12,9 @@ const LeaderBoardItem = (props: LeaderBoardItemProps) => {
   return (
     <View style={[styles.container, {backgroundColor: bgColor}]}>
       <Text style={styles.name}>{index + 1}. Anonymous User</Text>
-      <Text style={styles.points}>{item?.points}/{item?.totalPoints}</Text>
+      <Text style={styles.points}>
+        {item?.points}/{item?.totalPoints}
+      </Text>
     </View>
   );
 };
@@ -31,6 +33,7 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 16,
     fontWeight: '600',
+    color: '#000',
   },
   points: {
     fontSize: 16,
